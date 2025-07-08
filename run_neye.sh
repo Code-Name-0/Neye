@@ -34,14 +34,16 @@ run_with_sudo apt-get install -y build-essential cmake git python3-venv libpcap-
 
 # --- Set up Python virtual environment ---
 log_step "Creating and activating Python virtual environment..."
-
 VENV_DIR="venv"
 if [ -d "$VENV_DIR" ]; then
-    log_info "Removing existing virtual environment at '$VENV_DIR'."
-    rm -rf "$VENV_DIR"
+    log_info "Existing virtual environment found at '$VENV_DIR'. Reusing it."
+else
+    log_info "No virtual environment found. Creating a new one at '$VENV_DIR'."
+    python3 -m venv "$VENV_DIR"
 fi
 
-python3 -m venv "$VENV_DIR"
+
+
 source "$VENV_DIR/bin/activate"
 
 log_info "Virtual environment activated. Installing Python packages inside it."
