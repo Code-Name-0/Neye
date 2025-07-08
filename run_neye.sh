@@ -35,7 +35,7 @@ run_with_sudo() {
 log_step "Installing system dependencies..."
 log_info "This step requires root privileges to use 'apt'."
 run_with_sudo apt-get update -y
-run_with_sudo apt-get install -y build-essential cmake git python3-pip libpcap-dev libcurl4-openssl-dev
+run_with_sudo apt-get install -y build-essential cmake git python3-pip libpcap-dev libcurl4-openssl-dev xterm
 
 # --- Create a clean build directory ---
 BUILD_DIR="build"
