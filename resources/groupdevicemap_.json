@@ -1,0 +1,23 @@
+[
+    {
+        "name": "gateway",
+        "mac": "66:bb:8e:cd:2d:e7",
+        "mac_": "d4:8c:b5:b9:f7:62",
+        "group": 0
+    },
+    {
+        "name": "device_1",
+        "mac": "dc:a6:32:fb:69:94",
+        "group": 1
+    },
+    {
+        "name": "device_2",
+        "mac": "e4:5f:01:9f:3b:91",
+        "group": 2
+    },
+    {
+        "name": "device_3",
+        "mac": "dc:a6:32:fb:6a:2d",
+        "group": 0
+    }
+]

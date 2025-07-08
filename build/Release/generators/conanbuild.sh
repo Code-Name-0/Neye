@@ -1,0 +1,1 @@
+. "/home/rabah/Desktop/NEye_SEC Network Monitor/build/Release/generators/conanbuildenv-release-x86_64.sh"

@@ -1,0 +1,16 @@
+[requires]
+libpcap/1.10.4
+nlohmann_json/3.11.3
+libcurl/8.12.1
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+libpcap/*:shared=False
+nlohmann_json/*:shared=False
+libcurl/*:shared=False
+
+[layout]
+cmake_layout

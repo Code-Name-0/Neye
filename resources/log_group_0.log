@@ -1,0 +1,7 @@
+group_id: 0
+total_flows_count: 0
+total_packets_count: 47
+average_window_size: 0
+packet_rate: 0
+monitored_devices: []
+packet_count_per_device: {66:bb:8e:cd:2d:e7:47}
